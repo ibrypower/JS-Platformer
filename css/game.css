@@ -1,0 +1,25 @@
+.background    { background: url('background.jpg');
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(247, 62, 68); }
+.wall          { background: rgb(52, 106, 144);   }
+
+.actor  { position: absolute;  }
+.coin   { background: url('pokeballs.png') 0 0; }
+.player { width: 24px; height: 26px; background: url('red.png') 56px 30px; }
+.slime { background: url('slime.png') -21px -18px; }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  width: 24px; height: 26px; background: url('red.png') -39px 0; );
+}
+.won .player {
+  width: 24px; height: 26px; background: url('red.png') 57px 0px; );
+}

@@ -1,0 +1,20 @@
+<!doctype html>
+<audio id='bgmusic' src="bgmusic.mp3" loop="true"</audio>
+<script src="code/game.js"></script>
+<script src="code/game_levels.js"></script>
+
+<link rel="stylesheet" href="css/game.css">
+
+<body>
+  <script>
+  var theme1 = document.getElementById("bgmusic");
+  	bgmusic.play();
+/*  	function bgmusicEnd() {
+
+  		bgmusic.stop();
+  	}
+*/
+
+    runGame(GAME_LEVELS, DOMDisplay);
+  </script>
+</body>
